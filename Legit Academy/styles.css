@@ -1,0 +1,338 @@
+
+html, body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    margin: 0;
+    top: 0;
+    left: 0;
+}
+
+.logo{
+    border-radius: 100%;
+    margin-top: -25px;
+    
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: rgb(107, 175, 227);
+}
+
+.nav-item a:hover{
+    color: rgb(200, 30, 38);
+}
+
+.navbar .navbar-brand a{
+    padding: 1rem 0;
+    display: block;
+    text-decoration: none;
+}
+
+.navbar-brand {
+    color: blue;
+    font-size: 2rem;
+    font-family: cursive;
+}
+
+.navbar-brand:hover{
+    color: red;  
+}
+
+ul{
+    list-style: none;
+}
+
+.navbar{
+    background: white;
+    padding: 2rem, 1rem;
+    height: 0;
+    min-height: 12vh;
+}
+
+.navbar-toggler{
+    background: blue;
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+}
+
+.navbar-toggler span{
+    display: block;
+    width: 20px;
+    height: 1px;
+    border: 0.5px;
+    background-color: white;
+}
+
+.navbar-toggler span + span{
+    margin-top: 4px;
+    width: 20px;
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 2.5rem 1.5rem;
+    font-size: 1.2rem;
+    position: relative;
+    z-index: 1;
+}
+
+.dropdown{
+    position: relative;
+    z-index: 2;
+}
+
+.dropdown-menu{
+    width: 50%;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    border-top: 4px solid red;
+}
+
+.navbar-nav button{
+    background-color: rgb(22, 22, 149);
+    color: white;
+    border-radius: 0;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    margin-top: 35px;
+    border-radius: 7px;
+}
+
+.navbar-nav .btn:hover{
+    background-color: rgb(214, 152, 20);
+}
+
+.homeImage{
+    position: relative;
+}
+
+.homeText{
+    position: absolute;
+    top: 0;
+    color: white;
+    margin-top: 190px;
+    margin-left: 25px;
+    padding-left: 20px;
+}
+
+.homeText h3{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+#services{
+    text-align: center;
+    background-color: rgb(155, 205, 205);
+}
+
+.servicesPage h3{
+    padding-top: 40px;
+
+}
+
+.waecPage{
+    margin-top: 50px;
+}
+
+.waecResult img{
+    width: 35%;
+    height: 300px;
+    margin-top: 25px;
+    padding: 12px;
+}
+
+.lesson{
+    margin-top: 30px;
+}
+
+.lesson img{
+    margin-top: 25px;
+    width: 50%;
+    height: 600px;
+}
+
+.jambPage{
+    margin-top: 50px;
+}
+
+.jambPage img{
+    margin-top: 25px;
+    width: 50%;
+    height: 600px;
+}
+
+.topScorer{
+    margin-top: 30px;
+}
+
+.postUtme{
+ margin-top: 50px;
+}
+
+.putme img{
+    width: 30%;
+    height: 500px;
+    padding: 15px;
+}
+
+.results img{
+    width: 40%;
+    height: 500px;
+    padding: 15px;
+}
+
+.founder{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.founder img{
+    width: 20%;
+    height: 250px;
+    margin-top: 40px;
+    border-radius: 50%;
+}
+
+.aboutFounder{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.about{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about img{
+    width: 60%;
+    height: 500px;
+    margin-top: 10px;
+}
+
+#contact{
+    background-color: rgb(155, 205, 205);
+    padding-left: 25px;
+}
+
+.contact{
+    padding-top: 20px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+.contactBody{
+    font-size: 25px;
+    padding-left: 30px;
+}
+
+.contactFooter{
+    padding-top: 20px;
+    padding-bottom: 8px;
+    text-align: center;
+    color: blue;
+}
+
+.backLink a{
+    text-decoration: none;
+}
+
+.backLink a:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.fa{
+    padding-right: 20px;
+}
+
+.fa-instagram{
+    color: rgba(248, 75, 75, 0.84);
+}
+
+.fa-twitter{
+    color: rgba(43, 100, 207, 0.88);
+}
+
+.fa-facebook-official{
+    color: rgb(14, 14, 193);
+}
+
+.footerImg{
+    display: flex;
+    margin-left: auto;
+    padding-right: 100px;
+    margin-top: -230px;
+    height: 250px;
+}
+
+
+@media  screen and (max-width: 600px)
+ {
+    .homeText h3{
+        margin-top: 30px;
+        font-size: 20px;
+        width: 65%;
+    }
+
+     .navbar-expand-lg .navbar-nav .nav-link{
+        background-color: whitesmoke;
+        width: 50%;
+    }
+
+    #services{
+        width: fit-content;
+    }
+
+    .waecResult img{
+        height: 200px;
+    }
+
+    .lesson img{
+        height: 300px;
+    }
+
+    .jambPage img{
+        height: 300px;
+    }
+
+    .putme img{
+        width: 40%;
+        height: 250px;
+        padding: 8px;
+    }
+
+    .results img{
+        width: 40%;
+        height: 200px;
+        padding: 8px;
+    }
+
+    .about img{
+        height: 250px;
+    }
+
+    .founder img{
+        width: 50%;
+        height: 250px;
+        margin-top: 30px;
+        border-radius: 50%;
+    }
+
+    p{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .footerImg{
+       visibility: hidden;
+}
+ }
